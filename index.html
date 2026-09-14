@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#12306b">
+  <title>Sahiti | Login</title>
+  <link rel="icon" type="image/png" href="/manus-storage/sahiti-signal-mark_3b115e12.png">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="login-body">
+
+  <!-- Cinematic intro sequence -->
+  <div id="intro" class="intro-overlay" aria-hidden="true">
+    <div class="intro-title intro-title-blur" data-step="title">
+      <h2 data-i18n="welcome_title">Welcome to Sahiti</h2>
+    </div>
+    <div class="intro-stage" data-step="stage">
+      <div class="intro-grid" aria-label="Indian cities">
+        <div class="intro-cell" data-loc="Ladakh"><span class="cell-greet">Julley · ཇུ་ལེ</span></div>
+        <div class="intro-cell" data-loc="Delhi"><span class="cell-greet">नमस्ते</span></div>
+        <div class="intro-cell" data-loc="Kolkata"><span class="cell-greet">নমস্কার</span></div>
+        <div class="intro-cell" data-loc="Punjab"><span class="cell-greet">ਸਤ ਸ੍ਰੀ ਅਕਾਲ</span></div>
+        <div class="intro-cell" data-loc="Uttar Pradesh"><span class="cell-greet">नमस्ते · Jai Hind</span></div>
+        <div class="intro-cell" data-loc="Marathi"><span class="cell-greet">कसा काय</span></div>
+        <div class="intro-cell" data-loc="Gujarat"><span class="cell-greet">કેમ છો</span></div>
+        <div class="intro-cell" data-loc="Karnataka"><span class="cell-greet">ನಮಸ್ಕಾರ</span></div>
+        <div class="intro-cell" data-loc="Tamil Nadu"><span class="cell-greet">வணக்கம்</span></div>
+      </div>
+      <div class="intro-caption" data-step="caption">
+        <p data-i18n="intro_grid_head">One India. Every language of business.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top government banner -->
+  <header class="gov-banner">
+    <div class="banner-inner">
+      <div class="brand-lockup">
+        <img class="brand-mark" src="/manus-storage/sahiti-signal-mark_3b115e12.png" alt="">
+        <div>
+          <h1 class="banner-title" data-i18n="banner_title">Sahiti</h1>
+          <p class="banner-sub" data-i18n="banner_sub">By Team Sahiti</p>
+        </div>
+      </div>
+      <div class="banner-note" aria-label="Sahiti promise">
+        <span class="banner-note-dot"></span>
+        <span>Clearer decisions. Local context.</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Language switch -->
+  <div class="lang-wrap">
+    <label class="lang-label" for="langSelect">Language</label>
+    <select id="langSelect" class="lang-select" aria-label="Language"></select>
+  </div>
+
+  <!-- Welcome / Introduction -->
+  <main class="welcome">
+    <div class="welcome-copy">
+      <p class="eyebrow">A clearer first step for every business</p>
+      <h2 data-i18n="welcome_title">Welcome to Sahiti</h2>
+      <p class="welcome-intro" data-i18n="welcome_intro">Sahiti is your smart financial assistant — built to help entrepreneurs, farmers, and small businesses understand loans, plan their growth, and make confident decisions. Simple to use. Available in your language.</p>
+      <div class="welcome-proof" aria-label="Sahiti service highlights">
+        <span><i class="proof-dot proof-dot-blue"></i>Plan with clarity</span>
+        <span><i class="proof-dot proof-dot-saffron"></i>In your language</span>
+        <span><i class="proof-dot proof-dot-green"></i>Built for real places</span>
+      </div>
+    </div>
+
+    <aside class="welcome-signal-card" aria-label="What Sahiti helps you do">
+      <div class="signal-image-wrap">
+        <img src="/manus-storage/sahiti-welcome-illustration_39185ddf.png" alt="A small-business owner planning the next step with Sahiti" class="signal-image">
+        <span class="signal-chip">Sahiti signal</span>
+      </div>
+      <div class="signal-card-body">
+        <p class="signal-kicker">Before you commit</p>
+        <h3>See the path more clearly.</h3>
+        <p>Understand your options, check the numbers, and move forward with a plan that fits your place.</p>
+        <div class="signal-list">
+          <span><b>01</b> Understand</span>
+          <span><b>02</b> Plan</span>
+          <span><b>03</b> Grow</span>
+        </div>
+      </div>
+    </aside>
+
+    <div class="welcome-features">
+      <div class="wf-item">
+        <div class="wf-topline"><span class="feature-index">01</span><span class="feature-symbol feature-symbol-saffron">⌁</span></div>
+        <div><strong data-i18n="wf_calc_title">Loan Calculator</strong><p data-i18n="wf_calc_desc">Find your exact monthly EMI in one click.</p></div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-topline"><span class="feature-index">02</span><span class="feature-symbol feature-symbol-navy">▤</span></div>
+        <div><strong data-i18n="wf_docs_title">Document Guide</strong><p data-i18n="wf_docs_desc">Know exactly which documents you need.</p></div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-topline"><span class="feature-index">03</span><span class="feature-symbol feature-symbol-green">↗</span></div>
+        <div><strong data-i18n="wf_roi_title">ROI Tracker</strong><p data-i18n="wf_roi_desc">See your business grow over 3 years.</p></div>
+      </div>
+      <div class="wf-item">
+        <div class="wf-topline"><span class="feature-index">04</span><span class="feature-symbol feature-symbol-navy">⌖</span></div>
+        <div><strong data-i18n="wf_market_title">Market Check</strong><p data-i18n="wf_market_desc">Study competition, demand and costs before you commit.</p></div>
+      </div>
+    </div>
+
+    <div class="welcome-note">
+      <div class="welcome-note-image" aria-hidden="true"></div>
+      <div>
+        <p class="eyebrow">Made for the everyday entrepreneur</p>
+        <p>From the first market check to the next confident move, Sahiti keeps the numbers close to real life.</p>
+      </div>
+      <button type="button" class="welcome-note-arrow" id="aboutSahitiBtn" aria-haspopup="dialog" aria-controls="aboutSahitiDialog" aria-label="Learn more about Sahiti">→</button>
+    </div>
+  </main>
+
+  <dialog class="about-dialog" id="aboutSahitiDialog" aria-labelledby="aboutSahitiTitle">
+    <div class="about-dialog-shell">
+      <header class="about-dialog-header">
+        <div>
+          <p class="eyebrow">About Sahiti</p>
+          <h2 id="aboutSahitiTitle">A clearer path for everyday business.</h2>
+        </div>
+        <button type="button" class="about-dialog-close" id="aboutSahitiClose" aria-label="Close About Sahiti">×</button>
+      </header>
+
+      <div class="about-dialog-intro">
+        <p>Sahiti is a multilingual business companion for entrepreneurs, farmers, and small businesses. It brings practical planning tools into one calm, easy-to-understand place so you can explore an idea, understand the numbers, and decide what to do next.</p>
+      </div>
+
+      <div class="about-dialog-grid">
+        <article class="about-card">
+          <span class="about-card-index">01</span>
+          <h3>Plan with context</h3>
+          <p>Start with your location and business idea. Sahiti helps you think about demand, costs, risk, and realistic growth in language that feels close to everyday life.</p>
+        </article>
+        <article class="about-card">
+          <span class="about-card-index">02</span>
+          <h3>Check the numbers</h3>
+          <p>Use the loan calculator, ROI tracker, market check, and document guide to understand possible next steps before you commit time or money.</p>
+        </article>
+        <article class="about-card">
+          <span class="about-card-index">03</span>
+          <h3>Grow with confidence</h3>
+          <p>Sahiti is designed to make complex choices feel more manageable, with plainspoken guidance and tools that keep the important numbers visible.</p>
+        </article>
+        <article class="about-card about-card-accent">
+          <span class="about-card-index">AI</span>
+          <h3>A focused assistant</h3>
+          <p>The AI assistant is limited to Sahiti’s business topics and approved dashboard tools. It does not execute code, access secrets, or change account settings.</p>
+        </article>
+      </div>
+
+      <section class="terms-section" aria-labelledby="termsTitle">
+        <div class="terms-heading">
+          <p class="eyebrow">Please read before using Sahiti</p>
+          <h3 id="termsTitle">Terms &amp; Conditions</h3>
+        </div>
+        <div class="terms-copy">
+          <p><strong>1. Prototype service.</strong> Sahiti is an early-stage prototype created to demonstrate business-planning and financial-literacy tools. Some login, OTP, calculations, content, and recommendations may be simulated or incomplete.</p>
+          <p><strong>2. General information only.</strong> Sahiti does not provide a loan, guarantee approval, or replace advice from a qualified financial, legal, tax, or business professional. You are responsible for checking information and making your own decisions.</p>
+          <p><strong>3. Your information.</strong> Please do not enter passwords, payment details, confidential business documents, or sensitive personal information into the prototype. Use only information you are comfortable using for testing.</p>
+          <p><strong>4. AI assistant limits.</strong> The assistant is intended for Sahiti business topics and approved in-session tools. Its responses may be incomplete or inaccurate; review important figures and decisions independently.</p>
+          <p><strong>5. Changes and availability.</strong> Features may change as Sahiti develops. The service is provided for demonstration and testing, without a promise that every tool will always be available or error-free.</p>
+        </div>
+      </section>
+
+      <footer class="about-dialog-footer">
+        <span>Team Sahiti · A Smart India Hackathon Prototype</span>
+        <button type="button" class="about-dialog-secondary" id="aboutSahitiDone">Back to sign in</button>
+      </footer>
+    </div>
+  </dialog>
+
+  <main class="login-card">
+    <div class="card-head">
+      <span class="login-signal"><img src="/manus-storage/sahiti-signal-mark_3b115e12.png" alt=""></span>
+      <p class="login-eyebrow">Secure service checkpoint</p>
+      <h2 data-i18n="login_title">Sign In</h2>
+      <p class="muted" data-i18n="login_sub">Enter your mobile number to get started.</p>
+    </div>
+
+    <div class="login-reassurance"><span class="reassurance-mark">✓</span><span>Your first step stays simple, private, and in your control.</span></div>
+
+    <div id="loginSuccess" class="success-banner hidden">
+      <span>✓</span> <strong data-i18n="login_success_msg">OTP generated. Continue to verify your mobile number.</strong>
+    </div>
+
+    <form id="loginForm" novalidate>
+      <label for="phone" data-i18n="phone_label">Mobile Number (10 digits)</label>
+      <input type="tel" id="phone" inputmode="numeric" maxlength="10" placeholder="10-digit mobile number" autocomplete="off">
+      <p class="error-msg" id="phoneError" data-i18n="phone_error">Please enter a valid 10-digit mobile number.</p>
+
+      <button type="submit" class="btn-primary" data-i18n="login_btn">Login</button>
+    </form>
+
+    <p class="muted small" data-i18n="login_note">* Prototype login. OTP verification comes in Phase 2.</p>
+  </main>
+
+  <footer class="gov-footer">
+    <p data-i18n="footer">© 2026 Team Sahiti | A Smart India Hackathon Prototype</p>
+  </footer>
+
+  <script src="/js/i18n.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
